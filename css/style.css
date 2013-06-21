@@ -1,0 +1,69 @@
+
+body {
+  background: #222;
+  color: #333;
+  font: 16px/160% 'Helvetica', Arial, serif;
+  text-align: center;
+}
+
+h1,
+h2 {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 52px;
+  margin: 20% 0 20px;
+}
+
+h2 {
+  color: #eee;
+  font-size: 18px;
+}
+
+form {
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+form * {
+  display: inline;
+  margin: 0;
+}
+
+label {
+  display: none;
+}
+
+input {
+  background: #333;
+  border: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  outline: none;
+  padding: 15px 20px;
+}
+input:hover,
+input:active,
+input:focus {
+  background: #666;
+}
+
+input.button {
+  background: #fff;
+  color: #333;
+  margin-left: 15px;
+  text-transform: uppercase;
+}
+
+footer {
+  bottom: 10px;
+  color: #333;
+  font-size: 14px;
+  position: absolute;
+  right: 15px;
+  text-transform: uppercase;
+}
